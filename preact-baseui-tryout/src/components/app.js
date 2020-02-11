@@ -12,6 +12,8 @@ import {Provider as StyletronProvider} from 'styletron-react';
 import {LightTheme, BaseProvider} from 'baseui';
 import {StatefulInput} from 'baseui/input';
 
+import TestNav from '../components/TestNav';
+
 const engine = new Styletron();
 
 export default class App extends Component {
@@ -29,7 +31,7 @@ export default class App extends Component {
 			<div id="app">
 				<StyletronProvider value={engine}>
         	<BaseProvider theme={LightTheme}>
-						<Header />
+            <TestNav />
 						<Router onChange={this.handleRoute}>
 							<Home path="/" />
 							<Profile path="/profile/" user="me" />
