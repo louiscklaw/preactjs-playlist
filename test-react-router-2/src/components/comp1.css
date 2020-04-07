@@ -1,0 +1,8 @@
+
+.testClass{
+  background-color:red;
+}
+
+.OuterClass:hover .testClass{
+  background-color: gold;
+}
