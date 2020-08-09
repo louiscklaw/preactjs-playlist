@@ -1,6 +1,6 @@
 {
-  "name": "test1",
-  "short_name": "test1",
+  "name": "preactjs-helloworld-tryout",
+  "short_name": "preactjs-helloworld-tryout",
   "start_url": "/",
   "display": "standalone",
   "orientation": "portrait",
