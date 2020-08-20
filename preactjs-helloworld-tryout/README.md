@@ -1,4 +1,4 @@
-# test1
+# preactjs-helloworld-tryout
 
 ## CLI Commands
 
@@ -15,7 +15,7 @@ npm run build
 # test the production build locally
 npm run serve
 
-# run tests with jest and preact-render-spy 
+# run tests with jest and enzyme
 npm run test
 ```
 
