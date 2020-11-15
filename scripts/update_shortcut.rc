@@ -1,5 +1,11 @@
 #!/usr/bin/env bash
 
+
+
+helloearth(){
+  echo /home/logic/_workspace/preactjs-playlist/scripts/update_shortcut.rc
+}
+
 update_tryout_shortcut(){
   TMP_DIR=$(mktemp -d)
   PY_CONTENT=$(cat scripts/update_shortcut.py)
